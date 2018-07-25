@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".MoveVRService"
+            android:enabled="false"
+            android:exported="false"></service>
     </application>
 
 </manifest>
